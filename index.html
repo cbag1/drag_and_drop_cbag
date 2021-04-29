@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and Drop File Image</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="bordure" ondragover="allowDrop(event)">
+        <div class="icon"><i class="fas fa-cloud-upload-alt"></i></div>
+        <header> Drag & drop to Upload File</header>
+        <span>OR</span> <br>
+        <label for="file-upload" class="custom-file-upload">
+            <i class="fa fa-cloud-upload"></i> Custom Upload
+        </label>
+        <input id="file-upload" type="file"/>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
